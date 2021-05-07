@@ -1,0 +1,191 @@
+/* Main bot------------------------------------> */
+
+
+#chatbot-root .chatbot-Wrapper.active{
+    border:   none !important;
+    background: #d6dafa !important;
+    }
+    
+    #chatbot-root #chatbot{
+    background: url('https://wallpaperaccess.com/full/3006252.jpg') !important
+    }
+    
+    /* //Chat header */
+    #chatbot-root .chatbot-header{
+    /* backgrounf:#6d6253 */
+    background:linear-gradient(to right, rgb(250 235 214), rgb(109 98 83)) !important
+    }
+    
+    
+    /* //chatbot imput wrapper */
+    #chatbot-root .input-wrapper{
+    /* backgrounf:#6d6253 */
+    background:linear-gradient(to right, rgb(250 235 214), rgb(109 98 83)) !important
+    }
+    
+    /* Input box placeholder */
+    .chatbotInputBox input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #433c33;
+        opacity: 1; /* Firefox */
+      }
+      
+      .chatbotInputBox input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #433c33;
+      }
+      
+      .chatbotInputBox input::-ms-input-placeholder { /* Microsoft Edge */
+        color: #433c33;
+      }
+    
+      .chatbotInputBox input { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #433c33 !important;
+        opacity: 1; /* Firefox */
+      }
+    
+      /* Input Text color */
+      #chatbot-root .input-box{
+          color: black;
+      }
+    
+    
+    /* //Thumb up */
+    #chatbot-root .reaction-button-wrapper i.thumbs-up { 
+        color: #277725f8 !important; 
+    }
+    
+    /* //Thumb down */
+    #chatbot-root .reaction-button-wrapper i.thumbs-down { 
+        color: #d20e0ef1 !important; 
+    }
+    
+    
+    
+    
+    /* //Chatlist------------------------------> */
+    
+    /* //chat list items */
+    #chatbot-root .collection .collection-item.avatar {
+        background: #d5cfc58f !important; 
+    }
+    
+    
+    #chatbot-root .collection .collection-item.avatar:hover{
+        background: #c5b3938f !important; 
+    }
+    
+    /* //chat list items - hermes */
+    #chatbot-root .collection .collection-item.avatar.bot-chat-list {
+        background-color: #dcc099 !important; 
+    }
+    
+    #chatbot-root .collection .collection-item.avatar.bot-chat-list:hover {
+        background-color: #e6b878 !important; 
+    }
+    
+    /* //show all chat button */
+    #chatbot-root .allChat { 
+        background: #463f35 !important; 
+    }
+    
+    /* //chat bg - human */
+    #chatbot-root #chatbot.agent {
+        background: #f6e9d7 !important
+    }
+    
+    .msg_gallary_wrapper {
+        border: 6px solid rgb(67 60 51) !important;
+        border-radius: 8px !important;
+    }
+    
+    
+    /* //Attachament menu  */
+    #chatbot-root .Attachementmenu-wrapper {
+        background: #4c41339c !important;
+        }
+        
+        /* //headers buttons */
+        #chatbot-root .TopCloseButton{
+        color:#433c33 !important
+        }
+        
+        #chatbot-root .TopRefreshButton{
+        color:#433c33 !important
+        }
+        
+        
+        .send-button-wrapper{
+        color: #433c33 !important
+        }
+        
+        #chatbot-root .add-button-wrapper{
+        color: #433c33 !important
+        }
+        
+        /* Notificatoin bottom text */
+        .TopCloseButton.clear_notification_button span{
+            color:white !important;
+        }
+    
+    
+    
+        /* Autosuggetions list item, */
+        ul.react-autosuggest__suggestions-list li{ 
+            background: #433c33 
+        }
+        
+        ul.react-autosuggest__suggestions-list li:hover{  
+            background: #3b3227
+        }
+    
+    
+    
+        /* Chat headeing */
+        #chatbot-root .ChatBOTHeading { 
+            color: #41382e
+          }
+    
+          /* Message content wrapper */
+          #chatbot-root .msg-content-wrapper {
+            background: #e1d3bf
+        }
+    
+        #chatbot-root .msg-content-wrapper.message-content-wrapper-user {
+            background-color : #00d1b2 !important;
+        }
+    
+        #chatbot-root .msg-content-wrapper.message-content-wrapper-user ul.msg_gallary_wrapper{
+            border : 6px solid rgb(0 209 178) !important
+        }
+    
+    
+        #chatbot-root .message-content-wrapper-user{
+            box-shadow: 2px 2px 9px 1px #04322b;
+        }
+    
+        #chatbot-root .message-content-wrapper-bot{
+            box-shadow: 2px 2px 9px 1px #8e8272;
+        }
+    
+        #chatbot-root .maximizedChatWindow {
+            box-shadow: rgb(142 130 114) 2px 2px 9px 1px;}
+    
+    
+    
+            #chatbot-root .attach-button{
+                color:#433c33 !important
+            }
+    
+    
+    
+    
+    
+            /* MatirialUIc CSS */
+            .MuiButton-containedPrimary {
+                color: white !important;
+                background-color: #433c33 !important;
+            }
+    
+            .MuiButton-containedPrimary:hover {
+                color: black !important;
+                background-color: #ddad6f important;
+            }
